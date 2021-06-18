@@ -79,7 +79,7 @@ RUN apt-get update && apt-get install -y python-pip && rm -rf /var/lib/apt/lists
 
 # Upgrade Python3 pip and install some more packages
 RUN pip3 --no-cache-dir install --upgrade \
-        setuptools==41.0.1 \
+        setuptools==57.0.0 \
         pip==20.2.4 \
         numpy==1.16.6 \
         wheel==0.33.4
